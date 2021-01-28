@@ -6,4 +6,4 @@ Web Demo:
 
 ![alt text](assets/images/Horiseon-Demo.png)
 
-[Horiseon Website](https://ejbrownlf.github.io/)
+[Horiseon Website](https://ejbrownlf.github.io/Horiseon)
