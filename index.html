@@ -2,93 +2,88 @@
 <html lang="en-us">
 
 <head>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>My Portfolio</title>
-
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="pages/style.css">
-
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style-header.css">
+    <link rel="stylesheet" href="./assets/css/style-section.css">
+    <link rel="stylesheet" href="./assets/css/style-asside.css">
+    <link rel="stylesheet" href="./assets/css/style-footer.css">
+    <title>Horiseon</title>
 </head>
 
 <body>
-  
+    <header>
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero" title="Collaborative meeting"></div>
 
-  <!-- Main nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-    <a class="navbar-brand h1 logo" href="index.html">Erik Brown</a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <section class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav navbar-right ml-auto" >
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/contact.html">Contact</a>
-        </li>
-      </ul>
-    </section>
-
-  </nav>
-  <!-- nav bar ends -->
-
-  <!-- about me body -->
-  <section class="modal-body">
-    <section class="container-fluid">
-      <section class="row">
-        <section class="col-md-8">
-            <section class="jumbotron jumbotron-fluid bg-light">
-                <section class="container">
-                  <h1 class="display-4">About me</h1>
-
-                  <hr>
-
-                  <section class="row">
-                    <section class="col-md-3">
-                      <img class="img img-thumbnail" src="https://i1.wp.com/www.growingwildroots.com/wp-content/uploads/2016/03/5-benefits-of-living-forest.jpg?fit=720%2C441&resize=200%2C200" alt="image of a forest">
-                    </section>
-                    <article class="col-md-9">
-                      My name is Erik Brown. I am a student at the UNC bootcamp for Full Stack Web Development. I love problem solving and discovered a while ago that I really enjoy coding and the many problem solving oppurtunities it presents constantly. I wanted to learn more and decided to apply for this course earlier th is year and I am very glad I did. After I finish this course I look forward to finding a job in this market and learning even more and I hope to potentially go back to school and earn a CS degree.
-                    </article>
-                  </section>
-
-                  <br>
-
-                  <article>
-                    Take a look at my coding portfolio here at my github page:
-                  </article>
-                  <section>
-                    <a class="image" href= "https://github.com/ejbrownlf"></a>
-                  </section>
-                </section>
-              </section>
+    <main>
+        <section id="search-engine-optimization" class="service">
+            <img src="./assets/images/search-engine-optimization.jpg" alt="Writing utensils, coffee, a laptop, and a notebook with search engine optimization attributes laying on a wooden table" class="float-left" />
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
         </section>
-      </section>
-    </section>
-  </section>
+        <section id="online-reputation-management" class="service">
+            <img src="./assets/images/online-reputation-management.jpg" alt="Laptop showing reputation graph" class="float-right" />
+            <h2>Online Reputation Management</h2>
+            <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+            </p>
+        </section>
+        <section id="social-media-marketing" class="service">
+            <img src="./assets/images/social-media-marketing.jpg" alt="Meeting of people at table sharing ideas" class="float-left" />
+            <h2>Social Media Marketing</h2>
+            <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+            </p>
+        </section>
+    </main>
 
-  <footer class="footer fixed-bottom">
-    <p class="text-muted text-muted-footer text-center">&copy; Copyright Erik Brown</p>
-  </footer>
+    <aside>
+        <section id="benefit-lead" class="benefit">
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png" alt="Gear, funnel, and dollar symbol"/>
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </p>
+        </section>
+        <section id="benefit-brand" class="benefit">
+            <h3>Brand Awareness</h3>
+            <img src="./assets/images/brand-awareness.png" alt="Light bulb and suit representing brand awareness"/>
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </section>
+        <section id="benefit-cost" class="benefit">
+            <h3>Cost Management</h3>
+            <img src="./assets/images/cost-management.png" alt="Gear and dollar symbols representing cost management"></img>
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </section>
+    </aside>
 
-
-  <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <!-- Bootstrap JavaScript CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <footer>
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2020 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
 </body>
 
 </html>

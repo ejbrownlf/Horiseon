@@ -1,31 +1,9 @@
-# Homework 2: Responsive Portfolio
+# Horiseon
 
-This homework's goal was to make build a website using bootstrap CSS framework.
+Horiseon is a project that provides users with services that increase visibility on search engines, gives control over their reputation, and assistance with social media marketing
 
-This website has three pages:
+Web Demo:
 
-* About me page
+![alt text](assets/images/Horiseon-Demo.png)
 
-* Portfolio page
-
-* Contact page
-
-This webstie contains the following:
-
-* A working and function application
- 
-* A navbar with working links to each page
-
-* semantic HTML
-
-* Valid and correct html 
-
-* personalized imformation and links to media
-
-* properly utilized bootstrap content and grid system
-
-## Example image of site: 
-
-![alt text](/images/Screenshot_1.png)
-
-[My Portfolio!](https://ejbrownlf.github.io/homework2)
+[Horiseon Website](https://ejbrownlf.github.io/)

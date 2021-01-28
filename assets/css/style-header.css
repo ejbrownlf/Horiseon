@@ -1,0 +1,40 @@
+/* Header CSS file */
+
+/* main header attributes */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* sets the header to format inline */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* slightly shades the seo in Horiseon for emphasis */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* changes attributes for nav bar text */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* sets the nav list to have no style */
+header nav ul {
+    list-style-type: none;
+}
+
+/* sets nav bar to format inline */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}

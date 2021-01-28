@@ -1,0 +1,67 @@
+/* Right hand content CSS file */
+
+/* formatting for right hand aside */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* class for section attributes */
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* section ids */
+#benefit-lead {
+}
+
+#benefit-brand {
+}
+
+#benefit-cost {
+}
+/* <-----------------------------> */
+
+/* section h3 attributes */
+#benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* <-----------------------------> */
+
+/* img attributes for each section */
+#benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+#benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+#benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* <-----------------------------> */

@@ -1,0 +1,45 @@
+/* Main CSS file  */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* main bakcground color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* color for any anchors */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* paragraph text size */
+p {
+    font-size: 16px;
+}
+
+/* attributes for cover image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* class for any float left items */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* class for any float right items */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
